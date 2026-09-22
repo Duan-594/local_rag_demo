@@ -1,0 +1,26 @@
+# Python 虚拟环境
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Chroma向量数据库（很大，不要上传）
+chroma_db/
+
+# 日志、临时文件
+*.log
+tmp/
+temp/
+
+# 上传的pdf文件（可选，如果不想把测试文档提交就加上）
+# *.pdf
+
+# IDE配置
+.idea/
+.vscode/
+*.iml
+
+.idea/
+all-MiniLM-L6-v2/
